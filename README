@@ -1,0 +1,10 @@
+TypeSafe-components
+================================================================================
+
+A common style mvc/component pattern for developing web apps with TypeSafe.
+
+
+Module to install:
+--------------------------------------------------------------------------------
+TypeSafe/components/ComponentsModule.php
+
