@@ -32,8 +32,8 @@
     <dependencies>
         <dependency>
             <groupId>com.github.sarnowski</groupId>
-            <artifactId>TypeSafe</artifactId>
-            <version>[0.3,2)</version>
+            <artifactId>TypeSafe-core</artifactId>
+            <version>[0.7,2)</version>
         </dependency>
     </dependencies>
 

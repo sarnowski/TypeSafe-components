@@ -29,7 +29,7 @@ class ComponentsModule extends ServletModule {
     }
 
     public function configuration() {
-        $this->bind('DispatcherServlet')->inRequestScope();
+        $this->bind('DispatcherServlet');
         $this->handle('/^$/')->with('DispatcherServlet');
         $this->handle('/^(.*)\.'.$this->ending.'$/')->with('DispatcherServlet');
     }
