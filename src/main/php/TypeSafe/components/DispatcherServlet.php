@@ -64,8 +64,6 @@ class DispatcherServlet implements Servlet {
      * @return void
      */
     public function handleRequest($matches) {
-        $baseUrl = findBaseUrl($matches[0]);
-        define('BASEURL', substr($baseUrl, 0, strlen($baseUrl) - 1));
 
         if (isset($matches[1])) {
             $request = $matches[1];
